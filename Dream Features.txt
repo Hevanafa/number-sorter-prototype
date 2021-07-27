@@ -1,0 +1,40 @@
+Goal: make a number sorter game
+
+Main Gameplay
+Done: number array generator
+Done: positive, negative & zero buttons
+Done: answer check (positive, negative & zero)
+Done: number refill
+Done: vibrate whenever the user makes correct/wrong answer
+Done: multiple wrong answers on the same number only counts as a single mistake, also highlight it with reddish background
+Done: save best score locally
+Done: game over modal
+
+Todo: add how to play modal (replacing the How to play on the main screen)
+Todo: add about app modal
+
+Challenges
+Optional todo: add time constraint (add 5 more seconds every time the user answers 10 times correctly)
+Done: add chances system
+Done: extra life every 25 correct answers
+
+Aesthetics
+Todo: play sounds
+Done: enlarge the large number at the bottom most
+Done: accuracy counter
+- Use dynamic font size depending on user device (kinda like vw/vh)
+- add text animations (fade out, left for negative, right for positive, down for zero)
+
+Settings
+- Sounds
+- Music (relaxing lo-fi)
+- Vibration
+- Remove ads
+- Languages: English, Indonesian, Mandarin
+
+Ads
+- Allow free play (10 minutes at the start of the game)
+- Save last free play state, also the time remaining to prevent cheating
+- Game over screen will have the restart button with the "watch ad" trigger
+- Watch ad to gain extra chance
+- Remove ads will turn off the ads completely
